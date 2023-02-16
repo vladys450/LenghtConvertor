@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container">
+    <h2>Конвертер величин</h2>
+</div>
+<div class="rows">
+    <p>Введіть будь яке значеня в будь-яке поле</p>
+    <div class="feet">
+        <label>Фути</label>
+        <input id="inputFeet" type="number" placeholder="Фути"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="meters">
+        <label>Метри</label>
+        <input id="inputMeters" type="number" placeholder="Метри"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="inches">
+        <label>Дюйми</label>
+        <input id="inputInches" type="number" placeholder="Дюйми"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="cm">
+        <label>Сантиметри</label>
+        <input id="inputcm" type="number" placeholder="Сантиметри"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="yards">
+        <label>Ярди</label>
+        <input id="inputYards" type="number" placeholder="Ярди"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="kilometers">
+        <label>Кілометри</label>
+        <input id="inputKilometers" type="number" placeholder="Кілометри"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+    <div class="miles">
+        <label>Милі</label>
+        <input id="inputMiles" type="number" placeholder="Милі"
+            oninput="lengthConverter(this.id,this.value)" 
+            onchange="lengthConverter(this.id,this.value)">
+    </div>
+</div>
+    
+    
+    <script src="script.js"> 
+    </script>
+</body>
+</html>
